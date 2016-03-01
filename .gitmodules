@@ -1,4 +1,0 @@
-
-[submodule "tests"]
-    path = tests
-    url = https://github.com/yinghaochan/r2d3-tests.git
