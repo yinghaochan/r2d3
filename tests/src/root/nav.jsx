@@ -6,6 +6,7 @@ const Nav = (props, context) => (
   <div>
     <li> <IndexLink to="/"> Home </IndexLink> </li>
     <li> <Link to="/horzbarchart"> Horizontal Bar Chart </Link> </li>  
+    <li> <Link to="/piechart"> Pie Chart </Link> </li>  
   </div>
 )
 
