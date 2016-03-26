@@ -2,6 +2,7 @@ import React from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import d3 from 'd3'
 import _ from 'lodash'
+import Axis from './axis.jsx'
 
 import './style.scss'
 
@@ -61,7 +62,7 @@ const Chart = React.createClass({
               <rect 
                 fill={colorScale(n)} 
                 width={x(n)} 
-                height={barHeight-1}
+                height={barHeight - 1}
                />
               <text 
                 x={x(n)-10} 
@@ -73,6 +74,7 @@ const Chart = React.createClass({
             </g>
           ))
         }
+        <Axis />
         </ReactCSSTransitionGroup>
       </svg>
     )

@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/yinghaochan/r2d3/issues"
   },
-  "homepage": "https://github.com/yinghaochan/r2d3#readme"
+  "homepage": "https://github.com/yinghaochan/r2d3#readme",
+  "dependencies": {
+    "d3": "^3.5.16"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.8",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.1.0",
+    "node-sass": "^3.4.2"
+  }
 }
